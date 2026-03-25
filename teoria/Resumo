@@ -1,0 +1,82 @@
+# Resumo Teórico – Sinais e Sistemas Discretos
+
+## 1. Sinais Contínuos e Discretos
+
+Um sinal contínuo é definido para todos os instantes de tempo, enquanto um sinal discreto é definido apenas em instantes específicos (amostras).
+
+Na prática, sinais reais provenientes de sensores são contínuos e precisam ser convertidos para forma discreta por meio da amostragem 
+para serem processados digitalmente.
+
+---
+
+## 2. Sequências Elementares
+
+### Impulso Unitário
+Representado por δ[n], é definido como:
+- δ[0] = 1
+- δ[n] = 0 para n ≠ 0
+
+### Degrau Unitário
+Representado por u[n]:
+- u[n] = 1 para n ≥ 0
+- u[n] = 0 para n < 0
+
+### Exponencial Discreta
+Representada por:
+x[n] = aⁿ
+
+---
+
+## 3. Operações com Sinais
+
+- Deslocamento: x[n - k]
+- Inversão: x[-n]
+- Escalonamento: a·x[n]
+
+Essas operações permitem modelar diferentes comportamentos temporais de sinais reais.
+
+---
+
+## 4. Energia e Potência
+
+Energia:
+E = Σ |x[n]|²
+
+Potência:
+P = lim (N→∞) (1/2N+1) Σ |x[n]|²
+
+- Sinais de energia: energia finita
+- Sinais de potência: potência finita
+
+---
+
+## 5. Sistemas Discretos
+
+### Memória
+- Sem memória: depende apenas de x[n]
+- Com memória: depende de valores passados/futuros
+
+### Linearidade
+Um sistema é linear se satisfaz:
+- Aditividade
+- Homogeneidade
+
+### Causalidade
+- Causal: depende apenas do presente/passado
+- Não causal: depende do futuro
+
+### Invariância no Tempo
+A saída não muda se a entrada for deslocada.
+
+### Estabilidade (BIBO)
+Entrada limitada → saída limitada
+
+### Invertibilidade
+Possibilidade de recuperar o sinal de entrada a partir da saída.
+
+---
+
+## Conclusão
+
+A modelagem de sinais discretos permite representar fenômenos físicos de forma matemática, 
+possibilitando o processamento digital eficiente em sistemas reais.
