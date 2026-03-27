@@ -1,9 +1,32 @@
 # Estudo Dirigido – Parte 1 (PDS)
 
-## 📌 Objetivo
-Estudo sobre modelagem de sinais e sistemas discretos, com foco em representação matemática e simulação computacional.
+Modelagem de Sinais e Sistemas Discretos
+
+Disciplina: Processamento Digital de Sinais (PDS) 
+Instituição: Instituto Federal da Paraíba (IFPB) 
+
+Aluno: Wagner Gabriel Oliveira Da Silva
 
 ---
+
+## 📌 Objetivo
+Esta etapa foca nos fundamentos matemáticos da representação e análise de sinais discretos, 
+conectando a teoria de sinais a aplicações tecnológicas reais.
+
+
+Resumo Teórico 
+
+Conforme a bibliografia de Oppenheim, Lathi e Proakis, os sinais discretos são sequências obtidas via amostragem de sinais contínuos. 
+As propriedades fundamentais analisadas nesta etapa incluem:
+
+Linearidade: Obediência aos princípios de superposição.
+
+Causalidade: Dependência apenas de valores atuais e passados da entrada.
+
+Estabilidade (BIBO): Garantia de saídas limitadas para entradas limitadas.
+
+Invariância no Tempo: O comportamento do sistema não muda com o tempo.
+
 
 ## 📁 Estrutura do Repositório
 
@@ -26,9 +49,21 @@ python simulacoes/sistemas.py
 
 ---
 
+## 🔗 Problema Norteador
+
+Pergunta: Como representar o comportamento de um sensor real e quais propriedades garantem o correto processamento? 
+
+
+Discussão: Sensores reais (como os de vibração ou térmicos) geram sinais que precisam ser amostrados e representados 
+como sequências matemáticas para processamento digital. A análise da causalidade e estabilidade é crítica para garantir 
+que o processamento em sistemas embarcados seja fisicamente realizável e seguro.
+
+---
+
+
 ## 📊 Resultados
 
-Os gráficos gerados estão disponíveis na pasta `resultados/`.
+Os códigos de simulação estão disponíveis na pasta /simulacoes, e os gráficos gerados podem ser visualizados na pasta /resultados.
 
 ---
 
@@ -38,16 +73,4 @@ A análise dos resultados está disponível em:
 
 resultados/Discussão_Técnica
 
-
 ---
-
-## 🔗 Problema Norteador
-
-O trabalho demonstra como sinais reais de sensores podem ser representados matematicamente como sinais discretos e processados por sistemas digitais, 
-garantindo propriedades como estabilidade, causalidade e linearidade.
-
----
-
-## 👨‍💻 Autor
-
-Wagner Gabriel Oliveira Da Silva
