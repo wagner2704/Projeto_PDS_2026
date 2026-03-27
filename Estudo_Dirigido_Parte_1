@@ -1,0 +1,53 @@
+# Estudo Dirigido – Parte 1 (PDS)
+
+## 📌 Objetivo
+Estudo sobre modelagem de sinais e sistemas discretos, com foco em representação matemática e simulação computacional.
+
+---
+
+## 📁 Estrutura do Repositório
+
+- teoria/ → resumo teórico
+- simulacoes/ → códigos em Python
+- resultados/ → gráficos e análise
+
+---
+
+## ▶️ Como Executar
+
+1. Instale as dependências:
+
+pip install numpy matplotlib
+
+2. Execute:
+
+python simulacoes/sinais.py
+python simulacoes/sistemas.py
+
+---
+
+## 📊 Resultados
+
+Os gráficos gerados estão disponíveis na pasta `resultados/`.
+
+---
+
+## 🧠 Discussão
+
+A análise dos resultados está disponível em:
+
+resultados/Discussão_Técnica
+
+
+---
+
+## 🔗 Problema Norteador
+
+O trabalho demonstra como sinais reais de sensores podem ser representados matematicamente como sinais discretos e processados por sistemas digitais, 
+garantindo propriedades como estabilidade, causalidade e linearidade.
+
+---
+
+## 👨‍💻 Autor
+
+Wagner Gabriel Oliveira Da Silva
