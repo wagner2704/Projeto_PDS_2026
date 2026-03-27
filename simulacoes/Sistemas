@@ -1,0 +1,23 @@
+import numpy as np
+
+# Sistema 1: Linear, causal, sem memória
+def sistema1(x):
+    return 2 * x
+
+# Sistema 2: Com memória
+def sistema2(x):
+    y = np.zeros(len(x))
+    for i in range(1, len(x)):
+        y[i] = x[i] + x[i-1]
+    return y
+
+# Sistema 3: Não linear
+def sistema3(x):
+    return x**2
+
+# Teste
+x = np.array([1, 2, 3, 4])
+
+print("Sistema 1:", sistema1(x))
+print("Sistema 2:", sistema2(x))
+print("Sistema 3:", sistema3(x))
