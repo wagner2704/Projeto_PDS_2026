@@ -76,6 +76,21 @@ Possibilidade de recuperar o sinal de entrada a partir da saída.
 
 ---
 
+Propriedade                         Definição Resumida                         Importância no PDS
+
+Linearidade                  O sistema obedece aos princípios               Permite usar a Convolução.
+                             da superposição e homogeneidade.
+
+Causalidade                  A saída depende apenas de valores         Essencial para sistemas em tempo real.
+                               atuais e passados da entrada.
+
+Estabilidade (BIBO)            Para toda entrada limitada,              Garante que o sistema não ""exploda".
+                               a saída também é limitada. 
+
+Invariância no Tempo         Um deslocamento na entrada causa            Simplifica a modelagem matemática.
+                               o mesmo deslocamento na saída.
+
+
 ## Conclusão
 
 A modelagem de sinais discretos permite representar fenômenos físicos de forma matemática, 
