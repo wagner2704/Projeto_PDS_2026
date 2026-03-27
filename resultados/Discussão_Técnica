@@ -1,0 +1,38 @@
+# Discussão Técnica
+
+## Interpretação dos Sinais
+
+Os sinais simulados representam formas fundamentais utilizadas na modelagem de sistemas discretos. O impulso unitário é essencial para caracterizar sistemas, 
+enquanto o degrau representa mudanças abruptas típicas de sensores. A exponencial modela comportamentos de crescimento ou decaimento.
+
+---
+
+## Análise dos Sistemas
+
+- Sistema 1:
+  Linear, causal e sem memória. Representa um amplificador simples.
+
+- Sistema 2:
+  Possui memória, pois depende de valores passados. Pode representar um filtro simples.
+
+- Sistema 3:
+  Não linear, pois envolve operação quadrática. Pode representar distorções em sinais.
+
+---
+
+## Relação com Sensores Reais
+
+Sensores capturam sinais contínuos (temperatura, vibração, etc.), que são convertidos em sinais discretos por meio da amostragem.
+
+Esses sinais são processados por sistemas digitais que devem ser:
+
+- Causais (tempo real)
+- Estáveis (evitar explosões de saída)
+- Preferencialmente lineares (facilidade de análise)
+
+---
+
+## Conclusão
+
+A modelagem matemática permite representar o comportamento de sensores reais e projetar sistemas 
+capazes de processar esses sinais de forma eficiente e confiável.
